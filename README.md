@@ -48,4 +48,4 @@ I also learned how to create a responsive page, targeting tags and using
 ## Author
 
 - Frontend Mentor - [@aanutt](https://www.frontendmentor.io/profile/aanutt)
-- Twitter - [@aanu_olu](https://www.twitter.com/aanu-tt)
+- Twitter - [@aanu_tt](https://www.twitter.com/aanu_tt)
