@@ -3,13 +3,16 @@
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). 
 
 ## Table of contents
-
+  - [Intro](#intro)
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
  
+### Intro
 
+After 9 days of trying to solve this project, I finally made it! Super proud of this accomplishment.
+This is day 15 of 100 days of code
 
 ### Screenshot
 
