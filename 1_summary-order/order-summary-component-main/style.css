@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.img-desktop{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    z-index: -1;
+}
+.img-desktop{
+    width: 375px;
+    height: 194px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20rem;
+    height: auto;
+    border-radius: 15px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+
+.img-girl{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.description{
+    text-align: center;
+    margin: 0.7rem;
+}
+.description h1{
+    font-size: 1.25rem;
+}
+.description p{
+    font-size: 0.85rem;
+    margin: 0.7rem 3rem;
+    color: hsl(224, 23%, 55%);
+}
+
+
+.payment-plan{
+    margin: 0.5rem 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(222, 62%, 96%);
+}
+.img-pay{
+    margin: 0.25rem;
+} 
+.price-tag{
+    margin: 0.5rem 3rem 0.5rem 0.5rem;
+}
+.price-tag h2{
+    font-weight: 700;
+    font-size: 0.83rem;
+}
+.price-tag p{
+    font-size: 0.75rem;
+    color: hsl(224, 23%, 55%);
+}
+.payment-plan a{
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1rem 0 ;
+}
+
+
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    margin: 1.25rem;
+}
+.button button{
+    padding: 0.7rem 4.5rem;
+    border: none;
+    border-radius: 8px;
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    cursor: pointer;
+    box-shadow: 0 8px 16px 8px hsla(225, 17%, 54%, 0.3), 0 6px 20px 0 hsla(226, 100%, 96%, 0.19);
+}
+.button a{
+    margin: 1rem;
+    font-size: 0.83rem;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+button:hover{
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(245, 75%, 52%);
+    transition: all 0.4s ease 0s;
+}
+
+
+.attribution{
+    font-size: 11px; text-align: center;
+    margin: 2rem 0 0 0;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+    transition: all 0.4s ease 0s;
+}
+
+@media only screen and (min-width: 720px) {
+    .img-desktop{
+        position: absolute;
+        top: -80px;
+        left: 0;
+        z-index: -1;
+    }
+    .img-desktop{
+        min-width: 1280px;
+        max-width: 1440px;
+        height: auto;
+    }
+
+    main {
+        width: 24rem;
+    }
+    .description p{
+        font-size: 0.85rem;
+        margin: 0.7rem 1.5rem;
+        color: hsl(224, 23%, 55%);
+    }
+  }
