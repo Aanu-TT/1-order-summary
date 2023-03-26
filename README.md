@@ -16,7 +16,7 @@ This is day 15 of 100 days of code
 
 ### Screenshot
 
-![](\images\screenshot-desktop.jpg)
+![](./images/screenshot-desktop.jpg)
 
 
 ### Links
