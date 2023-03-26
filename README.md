@@ -22,7 +22,7 @@ This is day 15 of 100 days of code
 ### Links
 
 - Solution URL: (https://github.com/Aanu-TT/order-summary/blob/main/style.css)
-- Live Site URL: (https://order-summary-beige-phi.vercel.app/)
+- Live Site URL: (https://1-order-summary.vercel.app/)
 
 
 ### Built with
