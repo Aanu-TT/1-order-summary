@@ -4,7 +4,12 @@
 #####################################################
 *.sketch
 *.fig
+<<<<<<< HEAD
 design/
+=======
+design
+
+>>>>>>> e7edb22c96974fd7a7f95e1ff1786b7b357cdc1d
 # Avoid accidental XD upload if you convert the design file
 ###############################################
 ## Please do not remove line 12 - thanks! 🙂 ##
